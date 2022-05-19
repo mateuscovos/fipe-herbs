@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@herbsjs/herbs": "^1.4.0",
-    "@herbsjs/herbs2gql": "^2.0.0",
-    "@herbsjs/herbsshelf": "^2.0.0",
+    "@herbsjs/herbs": "^1.4.5",
+    "@herbsjs/herbs2gql": "^2.1.6",
+    "@herbsjs/herbsshelf": "^2.2.0",
     "apollo-server": "^3.5.0",
     "apollo-server-express": "^3.5.0",
     "axios": "^0.24.0",
