@@ -1,0 +1,32 @@
+{
+  "name": "fipe.api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/infra/api/server.js",
+    "test": "mocha --recursive src/**/*.spec.js",
+    "coverage": "nyc --reporter=html npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@herbsjs/herbs": "^1.4.0",
+    "@herbsjs/herbs2gql": "^2.0.0",
+    "@herbsjs/herbsshelf": "^2.0.0",
+    "apollo-server": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "axios": "^0.24.0",
+    "chai": "^4.3.6",
+    "dotenv": "^10.0.0",
+    "form-data": "^4.0.0",
+    "graphql": "^16.2.0",
+    "graphql-scalars": "^1.14.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0"
+  }
+}
